@@ -34,9 +34,9 @@
   "contact": {
     "heading": "Get in Touch",
     "subheading": "Have a question about our products or need a bulk order quote? Send us a message.",
-    "address": "Plot No. 12, Industrial Estate, Faridabad, Haryana, India",
-    "phone": "+91 98765 43210",
-    "email": "info@medimaxsurgicals.com",
+    "address": "Kaimashikoh, Town Patna Road, Kaimashikoh, Bihar 800008",
+    "phone": "+91 79032 31458",
+    "email": "medimax515@gmail.com",
     "mapEmbedUrl": "",
     "socials": [
       { "platform": "facebook", "url": "https://facebook.com/" },
@@ -44,18 +44,17 @@
       { "platform": "linkedin", "url": "https://linkedin.com/" }
     ],
     "googleForm": {
-      "note": "Replace formActionUrl and the entry IDs below with your own Google Form's values. See README.md > 'Connecting the Contact Form to Google Forms' for step-by-step instructions.",
-      "formActionUrl": "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/formResponse",
+      "formActionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfim3XeeiJ6vQvKV0I32vp3Bj3kKuHpLWg_ndPGkLnGR1rLyQ/formResponse",
       "fields": {
-        "name": "entry.REPLACE_NAME_ID",
-        "email": "entry.REPLACE_EMAIL_ID",
-        "phone": "entry.REPLACE_PHONE_ID",
-        "message": "entry.REPLACE_MESSAGE_ID"
+        "name": "entry.1229364092",
+        "email": "entry.359230981",
+        "phone": "entry.734594165",
+        "message": "entry.442606218"
       }
     }
   },
   "whatsapp": {
-    "number": "919876543210",
+    "number": "917903231458",
     "message": "Hi Medimax Surgicals, I'd like to know more about your products."
   },
   "footer": {

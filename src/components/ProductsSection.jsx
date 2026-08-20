@@ -40,6 +40,10 @@ export default function ProductsSection({ products }) {
 
       {products.length === 0 ? (
         <p className="empty-state">Add products to public/data/products.json to see them here.</p>
+      ) : products.length === 1 ? (
+        <div className="products__single">
+          <ProductCard product={products[0]} />
+        </div>
       ) : (
         <Carousel
           items={products}
