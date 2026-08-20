@@ -1,0 +1,64 @@
+{
+  "siteName": "Medimax Surgicals",
+  "tagline": "Precision Surgical Solutions You Can Trust",
+  "description": "Medimax Surgicals manufactures and supplies high-quality surgical instruments and disposables trusted by hospitals and clinics.",
+  "logo": {
+    "primary": "assets/logo/medimax_logo_primary.svg",
+    "white": "assets/logo/medimax_logo_white.svg",
+    "icon": "assets/logo/medimax_icon_mark.svg"
+  },
+  "nav": [
+    { "label": "Home", "href": "#home" },
+    { "label": "About", "href": "#about" },
+    { "label": "Products", "href": "#products" },
+    { "label": "Testimonials", "href": "#testimonials" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "heading": "Reliable Surgical Instruments for Every Operating Room",
+    "subheading": "ISO-certified manufacturing, rigorous quality control, and nationwide delivery — Medimax Surgicals equips healthcare providers with instruments they can rely on.",
+    "primaryButton": { "label": "Explore Products", "href": "#products" },
+    "secondaryButton": { "label": "Get in Touch", "href": "#contact" }
+  },
+  "about": {
+    "heading": "Who We Are",
+    "body": "For over a decade, Medimax Surgicals has been a trusted name in surgical instrumentation, combining precision engineering with strict quality standards. Our mission is to support medical professionals with dependable, hygienic, and durable surgical tools.",
+    "stats": [
+      { "value": "10+", "label": "Years of Experience" },
+      { "value": "500+", "label": "Products" },
+      { "value": "1200+", "label": "Hospitals Served" },
+      { "value": "25+", "label": "Cities Covered" }
+    ]
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "subheading": "Have a question about our products or need a bulk order quote? Send us a message.",
+    "address": "Plot No. 12, Industrial Estate, Faridabad, Haryana, India",
+    "phone": "+91 98765 43210",
+    "email": "info@medimaxsurgicals.com",
+    "mapEmbedUrl": "",
+    "socials": [
+      { "platform": "facebook", "url": "https://facebook.com/" },
+      { "platform": "instagram", "url": "https://instagram.com/" },
+      { "platform": "linkedin", "url": "https://linkedin.com/" }
+    ],
+    "googleForm": {
+      "note": "Replace formActionUrl and the entry IDs below with your own Google Form's values. See README.md > 'Connecting the Contact Form to Google Forms' for step-by-step instructions.",
+      "formActionUrl": "https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/formResponse",
+      "fields": {
+        "name": "entry.REPLACE_NAME_ID",
+        "email": "entry.REPLACE_EMAIL_ID",
+        "phone": "entry.REPLACE_PHONE_ID",
+        "message": "entry.REPLACE_MESSAGE_ID"
+      }
+    }
+  },
+  "whatsapp": {
+    "number": "919876543210",
+    "message": "Hi Medimax Surgicals, I'd like to know more about your products."
+  },
+  "footer": {
+    "copyrightName": "Medimax Surgicals",
+    "note": "All rights reserved."
+  }
+}

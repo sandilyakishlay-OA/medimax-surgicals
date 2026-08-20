@@ -1,0 +1,30 @@
+[
+  {
+    "id": "t1",
+    "name": "Dr. Rajesh Mehta",
+    "designation": "Chief Surgeon, Apollo Hospitals",
+    "image": "rajesh-mehta.jpg",
+    "quote": "Medimax's instruments have consistently met our precision and hygiene standards. Their after-sales support is exceptional."
+  },
+  {
+    "id": "t2",
+    "name": "Anita Sharma",
+    "designation": "CEO, CareWell Medical Supplies",
+    "image": "anita-sharma.jpg",
+    "quote": "We've partnered with Medimax for three years now — reliable delivery, consistent quality, and great pricing for bulk orders."
+  },
+  {
+    "id": "t3",
+    "name": "Dr. Sanjay Verma",
+    "designation": "Director, Verma Orthopedic Center",
+    "image": "sanjay-verma.jpg",
+    "quote": "Their orthopedic instrument sets are top-notch. Durable, well-balanced, and built for long surgical hours."
+  },
+  {
+    "id": "t4",
+    "name": "Priya Nair",
+    "designation": "Procurement Head, Sunrise Hospitals",
+    "image": "priya-nair.jpg",
+    "quote": "Excellent quality control and fast turnaround on custom orders. Medimax is our go-to surgical supplier."
+  }
+]

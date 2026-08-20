@@ -1,0 +1,17 @@
+<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="navyGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2E4A"/>
+      <stop offset="100%" stop-color="#173F63"/>
+    </linearGradient>
+    <linearGradient id="tealGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12A192"/>
+      <stop offset="100%" stop-color="#0C8074"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20, 20)">
+    <rect x="76" y="0" width="48" height="200" rx="24" fill="url(#navyGrad2)"/>
+    <rect x="0" y="76" width="200" height="48" rx="24" fill="url(#tealGrad2)"/>
+    <rect x="76" y="76" width="48" height="48" fill="url(#navyGrad2)"/>
+  </g>
+</svg>
