@@ -1,14 +1,20 @@
 [
   {
-    "id": "m1",
-    "name": "Sajal Suman",
+    "id": "m2",
+    "name": "Sajal Keshri",
     "designation": "Managing Director",
-    "image": "sajal-suman.jpg"
+    "image": "sajal-keshri.jpg"
   },
   {
-    "id": "m2",
+    "id": "m1",
     "name": "Sanjeet Kumar",
     "designation": "Chief Executive Officer",
-    "image": "sanjeet-kumar.jpg"
+    "image": "sanjeet-kumar.jpeg"
+  }, 
+  {
+    "id": "m3",
+    "name": "Julie Keshri",
+    "designation": "Director – Finance & Administration",
+    "image": "julie-keshri.jpeg"
   }
 ]

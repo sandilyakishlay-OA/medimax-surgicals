@@ -25,17 +25,17 @@
     "heading": "Who We Are",
     "body": "For over a decade, Medimax Surgicals has been a trusted name in surgical instrumentation, combining precision engineering with strict quality standards. Our mission is to support medical professionals with dependable, hygienic, and durable surgical tools.",
     "stats": [
-      { "value": "10+", "label": "Years of Experience" },
-      { "value": "500+", "label": "Products" },
-      { "value": "1200+", "label": "Hospitals Served" },
-      { "value": "25+", "label": "Cities Covered" }
+      { "value": "7+", "label": "Years of Experience" },
+      { "value": "5+", "label": "Products" },
+      { "value": "120+", "label": "Vendors Served" },
+      { "value": "5+", "label": "Cities Covered" }
     ]
   },
   "contact": {
     "heading": "Get in Touch",
     "subheading": "Have a question about our products or need a bulk order quote? Send us a message.",
     "address": "Kaimashikoh, Town Patna Road, Kaimashikoh, Bihar 800008",
-    "phone": "+91 79032 31458",
+    "phone": "+91 9835017441",
     "email": "medimax515@gmail.com",
     "mapEmbedUrl": "",
     "socials": [
@@ -54,7 +54,7 @@
     }
   },
   "whatsapp": {
-    "number": "917903231458",
+    "number": "919835017441",
     "message": "Hi Medimax Surgicals, I'd like to know more about your products."
   },
   "footer": {
