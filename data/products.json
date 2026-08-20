@@ -1,0 +1,44 @@
+[
+  {
+    "id": "p1",
+    "name": "Surgical Scissors Set",
+    "category": "General Surgery",
+    "image": "scissors-set.jpg",
+    "description": "Premium stainless-steel scissors set for precision cutting in general surgical procedures."
+  },
+  {
+    "id": "p2",
+    "name": "Artery Forceps",
+    "category": "General Surgery",
+    "image": "artery-forceps.jpg",
+    "description": "High-grade artery forceps with secure locking mechanism for reliable hemostasis control."
+  },
+  {
+    "id": "p3",
+    "name": "Laparoscopic Instrument Kit",
+    "category": "Minimally Invasive",
+    "image": "laparoscopic-kit.jpg",
+    "description": "Complete laparoscopic instrument kit engineered for durability and ergonomic handling."
+  },
+  {
+    "id": "p4",
+    "name": "Orthopedic Drill Set",
+    "category": "Orthopedics",
+    "image": "ortho-drill-set.jpg",
+    "description": "Precision orthopedic drill set built for accuracy in bone surgery and implant procedures."
+  },
+  {
+    "id": "p5",
+    "name": "Needle Holders",
+    "category": "General Surgery",
+    "image": "needle-holders.jpg",
+    "description": "Ergonomic needle holders offering firm grip and smooth tungsten carbide jaws."
+  },
+  {
+    "id": "p6",
+    "name": "Sterilization Trays",
+    "category": "Sterilization",
+    "image": "sterilization-trays.jpg",
+    "description": "Autoclavable sterilization trays designed for safe storage and easy instrument organization."
+  }
+]
