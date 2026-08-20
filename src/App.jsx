@@ -3,6 +3,7 @@ import { asset } from './utils/paths.js'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
+import TeamSection from './components/TeamSection.jsx'
 import ProductsSection from './components/ProductsSection.jsx'
 import TestimonialsSection from './components/TestimonialsSection.jsx'
 import ContactSection from './components/ContactSection.jsx'
@@ -13,6 +14,7 @@ export default function App() {
   const { data: config, loading: configLoading, error: configError } = useJson('data/config.json')
   const { data: products } = useJson('data/products.json')
   const { data: testimonials } = useJson('data/testimonials.json')
+  const { data: team } = useJson('data/team.json')
 
   if (configError) {
     return (
@@ -36,6 +38,7 @@ export default function App() {
       <main>
         <Hero config={config} />
         <About config={config} />
+        <TeamSection team={team || []} />
         <ProductsSection products={products || []} />
         <TestimonialsSection testimonials={testimonials || []} />
         <ContactSection config={config} />

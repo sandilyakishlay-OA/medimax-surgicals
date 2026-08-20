@@ -1,0 +1,34 @@
+[
+  {
+    "id": "m1",
+    "name": "Arvind Kapoor",
+    "designation": "Founder & CEO",
+    "image": "arvind-kapoor.jpg",
+    "bio": "20+ years in surgical manufacturing, leading Medimax's mission to equip hospitals with instruments they can rely on.",
+    "linkedin": "https://linkedin.com/"
+  },
+  {
+    "id": "m2",
+    "name": "Neha Kulkarni",
+    "designation": "Chief Technology Officer",
+    "image": "neha-kulkarni.jpg",
+    "bio": "Oversees product engineering and R&D, driving precision and consistency across the instrument line.",
+    "linkedin": "https://linkedin.com/"
+  },
+  {
+    "id": "m3",
+    "name": "Rohit Malhotra",
+    "designation": "Chief Operating Officer",
+    "image": "rohit-malhotra.jpg",
+    "bio": "Runs manufacturing operations and supply chain, keeping delivery fast and dependable nationwide.",
+    "linkedin": "https://linkedin.com/"
+  },
+  {
+    "id": "m4",
+    "name": "Sana Iqbal",
+    "designation": "Head of Quality Assurance",
+    "image": "sana-iqbal.jpg",
+    "bio": "Ensures every instrument clears ISO and clinical safety standards before it reaches an operating room.",
+    "linkedin": "https://linkedin.com/"
+  }
+]

@@ -12,12 +12,14 @@ Medimax/
 │   ├── data/
 │   │   ├── config.json        # company info, nav, hero, about, contact, whatsapp
 │   │   ├── products.json      # product cards
-│   │   └── testimonials.json  # testimonial cards
+│   │   ├── testimonials.json  # client testimonial cards
+│   │   └── team.json          # leadership cards (CEO, CTO, etc.)
 │   └── assets/
 │       ├── logo/               # your logo files (already added)
 │       └── images/
 │           ├── products/       # put product photos here
-│           └── team/           # put testimonial person photos here
+│           ├── team/           # put testimonial (client) photos here
+│           └── leadership/     # put CEO/CTO/leadership photos here
 ├── src/                        # React app source
 ├── deploy.sh                   # one-command GitHub Pages deploy
 └── package.json
@@ -65,6 +67,23 @@ instead.
   "designation": "Title, Company",
   "image": "person-name.jpg",
   "quote": "Their quote here."
+}
+```
+
+### Leadership (CEO, CTO, etc.)
+
+Edit `public/data/team.json`. `image` should match a file placed in
+`public/assets/images/leadership/`. `bio` and `linkedin` are optional — omit either and the card
+just won't show that line.
+
+```json
+{
+  "id": "m5",
+  "name": "Person Name",
+  "designation": "Chief Something Officer",
+  "image": "person-name.jpg",
+  "bio": "One line about their role.",
+  "linkedin": "https://linkedin.com/in/..."
 }
 ```
 

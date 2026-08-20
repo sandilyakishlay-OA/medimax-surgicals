@@ -38,13 +38,13 @@ export default function Navbar({ config }) {
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
-      <div className="navbar__inner">
+    <header className="navbar-wrap">
+      <div className={`navbar-pill ${scrolled ? 'navbar-pill--scrolled' : ''}`}>
         <a href="#home" className="navbar__brand" onClick={closeMenu}>
-          <img src={asset(config.logo.primary)} alt={config.siteName} className="navbar__logo" />
+          <img src={asset(config.logo.white)} alt={config.siteName} className="navbar__logo" />
         </a>
 
-        <nav className={`navbar__nav ${menuOpen ? 'navbar__nav--open' : ''}`}>
+        <nav className="navbar__links">
           {config.nav.map((item) => (
             <a
               key={item.href}
@@ -55,10 +55,11 @@ export default function Navbar({ config }) {
               {item.label}
             </a>
           ))}
-          <a href="#contact" className="navbar__cta" onClick={closeMenu}>
-            Get a Quote
-          </a>
         </nav>
+
+        <a href="#contact" className="navbar__cta" onClick={closeMenu}>
+          Get a Quote
+        </a>
 
         <button
           type="button"
@@ -72,6 +73,22 @@ export default function Navbar({ config }) {
           <span />
         </button>
       </div>
+
+      <nav className={`navbar-mobile-menu ${menuOpen ? 'navbar-mobile-menu--open' : ''}`} aria-hidden={!menuOpen}>
+        {config.nav.map((item) => (
+          <a
+            key={item.href}
+            href={item.href}
+            className={`navbar-mobile-menu__link ${activeHref === item.href ? 'navbar-mobile-menu__link--active' : ''}`}
+            onClick={closeMenu}
+          >
+            {item.label}
+          </a>
+        ))}
+        <a href="#contact" className="navbar__cta navbar__cta--block" onClick={closeMenu}>
+          Get a Quote
+        </a>
+      </nav>
     </header>
   )
 }

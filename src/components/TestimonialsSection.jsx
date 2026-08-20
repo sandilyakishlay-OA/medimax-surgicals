@@ -1,16 +1,7 @@
 import { useState } from 'react'
 import { asset } from '../utils/paths.js'
+import { initialsOf } from '../utils/text.js'
 import Carousel from './Carousel.jsx'
-
-function initialsOf(name) {
-  return name
-    .split(' ')
-    .map((part) => part[0])
-    .filter(Boolean)
-    .slice(0, 2)
-    .join('')
-    .toUpperCase()
-}
 
 function TestimonialCard({ testimonial }) {
   const [imgError, setImgError] = useState(false)
